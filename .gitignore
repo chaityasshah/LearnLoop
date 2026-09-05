@@ -1,0 +1,31 @@
+# Node
+node_modules/
+dist/
+.npm
+
+# Environment files — NEVER commit real .env files
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+backend/venv/
+backend/.pytest_cache/
+.pytest_cache/
+
+# Build / cache
+build/
+*.log
+backend/flow_results.txt
+backend/training_data.csv
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

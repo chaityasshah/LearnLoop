@@ -1,0 +1,36 @@
+.privacy-notice {
+    background-color: #f0f4f8;
+    border: 1px solid #c8d8e4;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #334155;
+}
+
+.privacy-notice strong {
+    color: #0f172a;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.privacy-notice p {
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.privacy-notice button {
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.privacy-notice button:hover {
+    background-color: #334155;
+}
